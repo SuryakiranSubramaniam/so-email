@@ -1,0 +1,27 @@
+Manifest-Version: 1.0
+Built-By: rohit
+Class-Path: ../lib/camel-core-2.22.1.jar ../lib/slf4j-api-1.7.25.jar .
+ ./lib/jaxb-core-2.3.0.1.jar ../lib/jaxb-impl-2.3.0.1.jar ../lib/camel
+ -spring-2.22.1.jar ../lib/spring-core-5.0.7.RELEASE.jar ../lib/spring
+ -jcl-5.0.7.RELEASE.jar ../lib/spring-aop-5.0.7.RELEASE.jar ../lib/spr
+ ing-context-5.0.7.RELEASE.jar ../lib/spring-beans-5.0.7.RELEASE.jar .
+ ./lib/spring-expression-5.0.7.RELEASE.jar ../lib/spring-tx-5.0.7.RELE
+ ASE.jar ../lib/camel-kafka-2.22.1.jar ../lib/kafka-clients-1.1.0.jar 
+ ../lib/lz4-java-1.4.jar ../lib/snappy-java-1.1.7.1.jar ../lib/camel-f
+ reemarker-2.22.1.jar ../lib/freemarker-2.3.28.jar ../lib/camel-jackso
+ n-2.22.1.jar ../lib/jackson-databind-2.9.6.jar ../lib/jackson-annotat
+ ions-2.9.0.jar ../lib/jackson-module-jaxb-annotations-2.9.6.jar ../li
+ b/logback-classic-1.2.3.jar ../lib/logback-core-1.2.3.jar ../lib/came
+ l-http4-2.22.2.jar ../lib/camel-http-common-2.22.2.jar ../lib/httpcli
+ ent-4.5.5.jar ../lib/httpcore-4.4.9.jar ../lib/commons-logging-1.2.ja
+ r ../lib/commons-codec-1.10.jar ../lib/jedis-2.9.0.jar ../lib/commons
+ -pool2-2.4.2.jar ../lib/camel-quartz2-2.22.1.jar ../lib/quartz-2.3.0.
+ jar ../lib/mchange-commons-java-0.2.11.jar ../lib/HikariCP-java6-2.3.
+ 13.jar ../lib/c3p0-0.9.5.2.jar ../lib/javax.servlet-api-3.1.0.jar ../
+ lib/commons-lang3-3.7.jar ../lib/logback-elasticsearch-appender-1.6.j
+ ar ../lib/jackson-core-2.8.0.jar ../lib/camel-jasypt-2.22.1.jar ../li
+ b/jasypt-1.9.2.jar
+Build-Jdk: 1.8.0_342
+Created-By: Maven Integration for Eclipse
+Main-Class: org.apache.camel.spring.Main
+
