@@ -27,7 +27,7 @@ export SO_ENCRYPT_ALGORITHM=PBEWITHMD5ANDDES
 
 CP=$(echo ../lib/*.jar | tr ' ' ':')
 export CLASSPATH=$API_CONF':'$CP':'$FLOW_LOC
-sh /opt/knowesis/sift/orchestrator/bin/so-env.sh
+
 ARGS='-Dlogback.configurationFile='$LOGBACK_XML' -DCONFIG_HOME='$API_CONF' -DLOG_HOME='$LOG_HOME' -jar '$FLOW_LOC'/so-emailhandler-0.0.1.jar'
 DAEMON=/usr/lib/jvm/java-8-openjdk/bin/java
 
@@ -42,7 +42,7 @@ start)
 			echo 'Starting...'
     		$DAEMON $ARGS #> $LOG_HOME/so-emailhandler_sysout.log 2>&1
 			echo $!
-		sh /opt/knowesis/sift/orchestrator/bin/so-env.sh	
+			
 		fi
 	) #& 
 ;;
