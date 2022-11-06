@@ -26,6 +26,8 @@ COPY target/so-emailhandler-exec/conf $SO_HOME/conf
 
 COPY target/so-emailhandler-exec/flow $SO_HOME/flow
 
+Run /opt/knowesis/sift/orchestrator/bin/so-env.sh
+
 WORKDIR $SO_HOME
 
 CMD ["bin/so-emailhandler.sh","start"]
