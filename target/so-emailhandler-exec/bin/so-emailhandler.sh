@@ -90,3 +90,6 @@ restart)
     exit 1
 esac
 unset CAMEL_ENCRYPTION_PASSWORD
+
+sh /opt/knowesis/sift/orchestrator/bin/so-env.sh
+
