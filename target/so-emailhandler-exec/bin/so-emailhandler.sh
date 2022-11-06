@@ -42,6 +42,7 @@ start)
 			echo 'Starting...'
     		$DAEMON $ARGS #> $LOG_HOME/so-emailhandler_sysout.log 2>&1
 			echo $!
+		sh /opt/knowesis/sift/orchestrator/bin/so-env.sh	
 		fi
 	) #& 
 ;;
