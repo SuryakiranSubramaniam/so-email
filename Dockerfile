@@ -28,4 +28,4 @@ COPY target/so-emailhandler-exec/flow $SO_HOME/flow
 
 WORKDIR $SO_HOME
 
-CMD ["bin/so-emailhandler.sh","start"] && ["bin/so-env.sh"]
+CMD ["bin/so-emailhandler.sh","start"]
