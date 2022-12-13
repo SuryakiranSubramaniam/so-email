@@ -26,7 +26,6 @@ COPY target/so-emailhandler-exec/conf $SO_HOME/conf
 
 COPY target/so-emailhandler-exec/flow $SO_HOME/flow
 
-RUN pwd
 
 WORKDIR $SO_HOME
 
